@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <link rel="stylesheet" href="CSS/styles.css"/>
+
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="home.html"><img src="hinh/logo.png" alt="Logo" /></a>
+      </div>
+      <nav class="nav">
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="hotCombo.html">Hot Combo</a>
+        <a href="about.html" class="active">About us</a>
+        <a href="blog.html">Blog</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+      <div class="icons">
+        <div class="icon-wrapper search-container">
+          <img src="hinh/.png" class="search-icon" onclick="toggleSearch()" />
+          <div class="search-box" id="search-box">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button onclick="toggleSearch()">❌</button>
+          </div>
+        </div>
+      
+        <div class="icon-wrapper">
+          <a href="logIn.html"><span>👤</span></a>
+        </div>
+        <div class="icon-wrapper cart" onclick="window.location.href='shoppingCart.html'">🛒</div>
+        </div>
+    </header>
+    <main class="main-section">
+    <div class="card-container">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="biet-cach-kiem-soat-nhiet-do.jpg"   alt="Đầu bếp">
+          </div>
+          <div class="card-back">
+            <h4>Đầu bếp chuyên nghiệp</h4>
+            <p>Đội ngũ bếp trưởng dày dặn kinh nghiệm, cam kết chất lượng từng món ăn.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="xay-dung-loi-song-lanh-manh-1.jpg" alt="Nguyên liệu">
+          </div>
+          <div class="card-back">
+            <h4>Nguyên liệu tươi sạch</h4>
+            <p>Thực phẩm được chọn lọc kỹ càng từ những nhà cung cấp uy tín.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="ve-sinh-toan-thuc-pham-trong-khau-che-bien-2.png" alt="Chế biến"><img/>
+          </div>
+          <div class="card-back">
+            <h4>Chế biến an toàn</h4>
+            <p>Quy trình nấu nướng khép kín, đảm bảo vệ sinh và dinh dưỡng.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="order-now">
+          🛒<span>ORDER NOW</span>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="rating">
+          <span>15k+ Rating</span>
+          <span>⭐ 4.5</span>
+        </div>
+      </div>
+    </main>
+
+    <section class="stats">
+      <div class="stat">
+        <h2>50+</h2>
+        <p>Food</p>
+      </div>
+      <div class="stat">
+        <h2>25+</h2>
+        <p>Drink</p>
+      </div>
+    </section>
+  </div>
+  <script src="script/page.js"></script>
+
+</body>
+</html>
